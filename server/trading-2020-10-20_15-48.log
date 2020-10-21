@@ -1,0 +1,583 @@
+2020-10-20 15:48:24,396	[Thread-1    ]	[INFO ]	Subcribed to: Connected Successfully
+2020-10-20 15:48:24,396	[MainThread  ]	[INFO ]	Preparing to download historical features...
+2020-10-20 15:48:24,538	[ThreadPoolEx]	[INFO ]	Start download for ticker: A
+2020-10-20 15:48:24,539	[ThreadPoolEx]	[INFO ]	Start download for ticker: AA
+2020-10-20 15:48:24,541	[ThreadPoolEx]	[INFO ]	Start download for ticker: AAP
+2020-10-20 15:48:24,542	[ThreadPoolEx]	[INFO ]	Start download for ticker: AAPL
+2020-10-20 15:48:24,543	[ThreadPoolEx]	[INFO ]	Start download for ticker: ABC
+2020-10-20 15:48:24,543	[ThreadPoolEx]	[INFO ]	Start download for ticker: ABMD
+2020-10-20 15:48:24,544	[ThreadPoolEx]	[INFO ]	Start download for ticker: ABT
+2020-10-20 15:48:24,546	[ThreadPoolEx]	[INFO ]	Start download for ticker: ACN
+2020-10-20 15:48:24,546	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADBE
+2020-10-20 15:48:24,547	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADI
+2020-10-20 15:48:24,547	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADM
+2020-10-20 15:48:24,547	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADP
+2020-10-20 15:48:24,547	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADS
+2020-10-20 15:48:24,548	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADSK
+2020-10-20 15:48:24,548	[ThreadPoolEx]	[INFO ]	Start download for ticker: AEP
+2020-10-20 15:48:24,549	[ThreadPoolEx]	[INFO ]	Start download for ticker: AES
+2020-10-20 15:48:24,837	[Thread-1    ]	[INFO ]	Subcribed to: authenticated
+2020-10-20 15:48:24,841	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.A
+2020-10-20 15:48:24,841	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AA
+2020-10-20 15:48:24,842	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AAP
+2020-10-20 15:48:24,842	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AAPL
+2020-10-20 15:48:24,843	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ABC
+2020-10-20 15:48:24,843	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ABMD
+2020-10-20 15:48:24,844	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ABT
+2020-10-20 15:48:24,844	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ACN
+2020-10-20 15:48:24,844	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ADBE
+2020-10-20 15:48:24,844	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ADI
+2020-10-20 15:48:24,844	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ADM
+2020-10-20 15:48:24,845	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ADP
+2020-10-20 15:48:24,845	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ADS
+2020-10-20 15:48:24,845	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ADSK
+2020-10-20 15:48:24,845	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AEP
+2020-10-20 15:48:24,960	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AES
+2020-10-20 15:48:24,960	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AFL
+2020-10-20 15:48:24,961	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AGN
+2020-10-20 15:48:24,961	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AIG
+2020-10-20 15:48:24,961	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AIV
+2020-10-20 15:48:24,962	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AIZ
+2020-10-20 15:48:24,962	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AJG
+2020-10-20 15:48:24,962	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AKAM
+2020-10-20 15:48:24,962	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AKS
+2020-10-20 15:48:24,963	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ALB
+2020-10-20 15:48:24,963	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ALK
+2020-10-20 15:48:24,963	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ALL
+2020-10-20 15:48:24,963	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ALTR
+2020-10-20 15:48:24,963	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ALXN
+2020-10-20 15:48:24,963	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AMAT
+2020-10-20 15:48:24,964	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AMD
+2020-10-20 15:48:24,964	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AME
+2020-10-20 15:48:24,964	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AMG
+2020-10-20 15:48:24,964	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AMGN
+2020-10-20 15:48:24,964	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AMP
+2020-10-20 15:48:24,965	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AMT
+2020-10-20 15:48:24,965	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AMZN
+2020-10-20 15:48:24,965	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AN
+2020-10-20 15:48:24,965	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ANF
+2020-10-20 15:48:24,965	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ANSS
+2020-10-20 15:48:24,965	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ANTM
+2020-10-20 15:48:24,966	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AON
+2020-10-20 15:48:24,966	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AOS
+2020-10-20 15:48:24,966	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.APA
+2020-10-20 15:48:24,972	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.APD
+2020-10-20 15:48:24,972	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.APH
+2020-10-20 15:48:24,972	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ARE
+2020-10-20 15:48:24,973	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ARNC
+2020-10-20 15:48:24,973	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ASH
+2020-10-20 15:48:24,973	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AT
+2020-10-20 15:48:24,973	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ATI
+2020-10-20 15:48:24,973	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ATO
+2020-10-20 15:48:24,974	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ATVI
+2020-10-20 15:48:24,974	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AVB
+2020-10-20 15:48:24,974	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AVP
+2020-10-20 15:48:24,975	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AVY
+2020-10-20 15:48:24,975	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AXP
+2020-10-20 15:48:24,975	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AYI
+2020-10-20 15:48:24,975	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AZO
+2020-10-20 15:48:24,976	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BA
+2020-10-20 15:48:24,976	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BAC
+2020-10-20 15:48:24,976	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BAX
+2020-10-20 15:48:24,977	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BBBY
+2020-10-20 15:48:24,977	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BBT
+2020-10-20 15:48:24,977	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BBY
+2020-10-20 15:48:24,977	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BC
+2020-10-20 15:48:24,977	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BDX
+2020-10-20 15:48:24,978	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BEN
+2020-10-20 15:48:24,978	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BF.B
+2020-10-20 15:48:24,978	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BIIB
+2020-10-20 15:48:24,978	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BK
+2020-10-20 15:48:24,978	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BLK
+2020-10-20 15:48:24,979	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BLL
+2020-10-20 15:48:24,979	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BMY
+2020-10-20 15:48:24,979	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BR
+2020-10-20 15:48:24,979	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BRK.B
+2020-10-20 15:48:24,980	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BSX
+2020-10-20 15:48:24,980	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BTU
+2020-10-20 15:48:24,980	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BUD
+2020-10-20 15:48:24,981	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BWA
+2020-10-20 15:48:24,981	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.BXP
+2020-10-20 15:48:24,981	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.C
+2020-10-20 15:48:24,981	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CAG
+2020-10-20 15:48:24,982	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CAH
+2020-10-20 15:48:24,982	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CAT
+2020-10-20 15:48:24,982	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CB
+2020-10-20 15:48:24,982	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CC
+2020-10-20 15:48:24,983	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CCI
+2020-10-20 15:48:24,983	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CCK
+2020-10-20 15:48:24,983	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CCL
+2020-10-20 15:48:24,983	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CCU
+2020-10-20 15:48:24,984	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CDNS
+2020-10-20 15:48:24,984	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CE
+2020-10-20 15:48:24,984	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CERN
+2020-10-20 15:48:24,985	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CF
+2020-10-20 15:48:24,985	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CHD
+2020-10-20 15:48:24,985	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CHK
+2020-10-20 15:48:24,985	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CHRW
+2020-10-20 15:48:24,986	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CHTR
+2020-10-20 15:48:24,986	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CI
+2020-10-20 15:48:24,986	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CIEN
+2020-10-20 15:48:24,986	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CINF
+2020-10-20 15:48:24,987	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CIT
+2020-10-20 15:48:24,987	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CL
+2020-10-20 15:48:24,987	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CLF
+2020-10-20 15:48:24,987	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CLX
+2020-10-20 15:48:24,988	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CMA
+2020-10-20 15:48:24,988	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CMCSA
+2020-10-20 15:48:24,988	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CME
+2020-10-20 15:48:24,988	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CMG
+2020-10-20 15:48:24,988	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CMI
+2020-10-20 15:48:24,989	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CMS
+2020-10-20 15:48:24,989	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CNC
+2020-10-20 15:48:24,989	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CNP
+2020-10-20 15:48:24,989	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CNX
+2020-10-20 15:48:24,994	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.COF
+2020-10-20 15:48:24,994	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.COG
+2020-10-20 15:48:24,994	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.COO
+2020-10-20 15:48:24,994	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.COP
+2020-10-20 15:48:24,995	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CPB
+2020-10-20 15:48:24,995	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CPRT
+2020-10-20 15:48:24,995	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CRM
+2020-10-20 15:48:24,995	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CSCO
+2020-10-20 15:48:24,996	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CSX
+2020-10-20 15:48:24,996	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CTAS
+2020-10-20 15:48:24,996	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CTL
+2020-10-20 15:48:24,997	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CTSH
+2020-10-20 15:48:24,997	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CTXS
+2020-10-20 15:48:24,997	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CVS
+2020-10-20 15:48:24,998	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.CVX
+2020-10-20 15:48:24,998	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.D
+2020-10-20 15:48:24,998	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DD
+2020-10-20 15:48:24,998	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DDS
+2020-10-20 15:48:24,999	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DE
+2020-10-20 15:48:24,999	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DELL
+2020-10-20 15:48:24,999	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DFS
+2020-10-20 15:48:24,999	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DGX
+2020-10-20 15:48:25,000	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DHI
+2020-10-20 15:48:25,000	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DHR
+2020-10-20 15:48:25,000	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DIS
+2020-10-20 15:48:25,001	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DISCA
+2020-10-20 15:48:25,001	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DISH
+2020-10-20 15:48:25,001	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DLR
+2020-10-20 15:48:25,002	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DNR
+2020-10-20 15:48:25,002	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DO
+2020-10-20 15:48:25,004	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DOV
+2020-10-20 15:48:25,005	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DOW
+2020-10-20 15:48:25,006	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DRE
+2020-10-20 15:48:25,006	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DRI
+2020-10-20 15:48:25,006	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DTE
+2020-10-20 15:48:25,006	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DUK
+2020-10-20 15:48:25,007	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DVA
+2020-10-20 15:48:25,007	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.DVN
+2020-10-20 15:48:25,007	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EA
+2020-10-20 15:48:25,007	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EBAY
+2020-10-20 15:48:25,008	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ECL
+2020-10-20 15:48:25,008	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ED
+2020-10-20 15:48:25,008	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EFX
+2020-10-20 15:48:25,011	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EL
+2020-10-20 15:48:25,012	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EMN
+2020-10-20 15:48:25,012	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EMR
+2020-10-20 15:48:25,013	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ENDP
+2020-10-20 15:48:25,014	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EOG
+2020-10-20 15:48:25,014	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EQIX
+2020-10-20 15:48:25,014	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EQR
+2020-10-20 15:48:25,014	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EQT
+2020-10-20 15:48:25,014	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ES
+2020-10-20 15:48:25,015	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ESS
+2020-10-20 15:48:25,015	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ETFC
+2020-10-20 15:48:25,015	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ETN
+2020-10-20 15:48:25,015	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ETR
+2020-10-20 15:48:25,015	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EVRG
+2020-10-20 15:48:25,016	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EW
+2020-10-20 15:48:25,016	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EXC
+2020-10-20 15:48:25,016	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EXPD
+2020-10-20 15:48:25,016	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EXPE
+2020-10-20 15:48:25,017	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.EXR
+2020-10-20 15:48:25,017	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.F
+2020-10-20 15:48:25,017	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FAST
+2020-10-20 15:48:25,017	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FCX
+2020-10-20 15:48:25,017	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FDX
+2020-10-20 15:48:25,018	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FE
+2020-10-20 15:48:25,018	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FFIV
+2020-10-20 15:48:25,018	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FHN
+2020-10-20 15:48:25,018	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FII
+2020-10-20 15:48:25,018	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FIS
+2020-10-20 15:48:25,019	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FISV
+2020-10-20 15:48:25,019	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FITB
+2020-10-20 15:48:25,019	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FL
+2020-10-20 15:48:25,019	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FLIR
+2020-10-20 15:48:25,019	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FLR
+2020-10-20 15:48:25,019	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FLS
+2020-10-20 15:48:25,019	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FMC
+2020-10-20 15:48:25,020	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FOSL
+2020-10-20 15:48:25,020	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FOX
+2020-10-20 15:48:25,020	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FOXA
+2020-10-20 15:48:25,020	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FRT
+2020-10-20 15:48:25,020	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FSLR
+2020-10-20 15:48:25,021	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FTI
+2020-10-20 15:48:25,021	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.FTR
+2020-10-20 15:48:25,021	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GCI
+2020-10-20 15:48:25,021	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GD
+2020-10-20 15:48:25,021	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GE
+2020-10-20 15:48:25,021	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GILD
+2020-10-20 15:48:25,022	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GIS
+2020-10-20 15:48:25,022	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GLW
+2020-10-20 15:48:25,022	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GM
+2020-10-20 15:48:25,022	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GME
+2020-10-20 15:48:25,027	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GNW
+2020-10-20 15:48:25,027	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GPC
+2020-10-20 15:48:25,027	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GPN
+2020-10-20 15:48:25,028	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GPS
+2020-10-20 15:48:25,028	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GRMN
+2020-10-20 15:48:25,029	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GS
+2020-10-20 15:48:25,029	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GT
+2020-10-20 15:48:25,030	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.GWW
+2020-10-20 15:48:25,030	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HAL
+2020-10-20 15:48:25,030	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HAS
+2020-10-20 15:48:25,030	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HBAN
+2020-10-20 15:48:25,030	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HBI
+2020-10-20 15:48:25,031	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HD
+2020-10-20 15:48:25,031	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HFC
+2020-10-20 15:48:25,031	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HIG
+2020-10-20 15:48:25,031	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HLT
+2020-10-20 15:48:25,031	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HOG
+2020-10-20 15:48:25,031	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HOLX
+2020-10-20 15:48:25,032	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HON
+2020-10-20 15:48:25,032	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HP
+2020-10-20 15:48:25,032	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HPQ
+2020-10-20 15:48:25,032	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HRB
+2020-10-20 15:48:25,032	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HRL
+2020-10-20 15:48:25,032	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HSIC
+2020-10-20 15:48:25,033	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HST
+2020-10-20 15:48:25,033	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HSY
+2020-10-20 15:48:25,033	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.HUM
+2020-10-20 15:48:25,033	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IAC
+2020-10-20 15:48:25,033	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IBM
+2020-10-20 15:48:25,033	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ICE
+2020-10-20 15:48:25,034	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IDXX
+2020-10-20 15:48:25,034	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IEX
+2020-10-20 15:48:25,034	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IFF
+2020-10-20 15:48:25,034	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IGT
+2020-10-20 15:48:25,034	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ILMN
+2020-10-20 15:48:25,034	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.INCY
+2020-10-20 15:48:25,035	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.INTC
+2020-10-20 15:48:25,035	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.INTU
+2020-10-20 15:48:25,035	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IP
+2020-10-20 15:48:25,035	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IPG
+2020-10-20 15:48:25,035	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IR
+2020-10-20 15:48:25,036	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IRM
+2020-10-20 15:48:25,036	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ISRG
+2020-10-20 15:48:25,036	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IT
+2020-10-20 15:48:25,036	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.IVZ
+2020-10-20 15:48:25,036	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JBHT
+2020-10-20 15:48:25,037	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JBL
+2020-10-20 15:48:25,037	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JCI
+2020-10-20 15:48:25,037	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JCP
+2020-10-20 15:48:25,038	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JEC
+2020-10-20 15:48:25,038	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JEF
+2020-10-20 15:48:25,038	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JKHY
+2020-10-20 15:48:25,038	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JNJ
+2020-10-20 15:48:25,038	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JNPR
+2020-10-20 15:48:25,039	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JPM
+2020-10-20 15:48:25,039	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.JWN
+2020-10-20 15:48:25,039	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.K
+2020-10-20 15:48:25,039	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KBH
+2020-10-20 15:48:25,040	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KEY
+2020-10-20 15:48:25,040	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KIM
+2020-10-20 15:48:25,045	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KLAC
+2020-10-20 15:48:25,046	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KMB
+2020-10-20 15:48:25,046	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KMI
+2020-10-20 15:48:25,047	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KMX
+2020-10-20 15:48:25,047	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KO
+2020-10-20 15:48:25,047	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KR
+2020-10-20 15:48:25,047	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KSS
+2020-10-20 15:48:25,047	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.KSU
+2020-10-20 15:48:25,048	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LDOS
+2020-10-20 15:48:25,048	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LEG
+2020-10-20 15:48:25,048	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LH
+2020-10-20 15:48:25,048	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LKQ
+2020-10-20 15:48:25,049	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LLY
+2020-10-20 15:48:25,049	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LM
+2020-10-20 15:48:25,049	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LMT
+2020-10-20 15:48:25,049	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LNC
+2020-10-20 15:48:25,049	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LNT
+2020-10-20 15:48:25,049	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LOW
+2020-10-20 15:48:25,050	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LRCX
+2020-10-20 15:48:25,050	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LSI
+2020-10-20 15:48:25,050	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.LUV
+2020-10-20 15:48:25,050	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.M
+2020-10-20 15:48:25,050	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MA
+2020-10-20 15:48:25,050	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MAA
+2020-10-20 15:48:25,051	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MAC
+2020-10-20 15:48:25,051	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MAR
+2020-10-20 15:48:25,051	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MAS
+2020-10-20 15:48:25,051	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MAT
+2020-10-20 15:48:25,052	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MBI
+2020-10-20 15:48:25,052	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MCD
+2020-10-20 15:48:25,052	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MCHP
+2020-10-20 15:48:25,052	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MCK
+2020-10-20 15:48:25,052	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MCO
+2020-10-20 15:48:25,052	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MDLZ
+2020-10-20 15:48:25,053	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MDP
+2020-10-20 15:48:25,053	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MDT
+2020-10-20 15:48:25,053	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MET
+2020-10-20 15:48:25,053	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MGM
+2020-10-20 15:48:25,053	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MHK
+2020-10-20 15:48:25,053	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MKC
+2020-10-20 15:48:25,054	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MMC
+2020-10-20 15:48:25,054	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MMM
+2020-10-20 15:48:25,054	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MNST
+2020-10-20 15:48:25,054	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MO
+2020-10-20 15:48:25,054	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MOS
+2020-10-20 15:48:25,054	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MRK
+2020-10-20 15:48:25,055	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MRO
+2020-10-20 15:48:25,059	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MS
+2020-10-20 15:48:25,059	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MSFT
+2020-10-20 15:48:25,059	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MSI
+2020-10-20 15:48:25,060	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MTB
+2020-10-20 15:48:25,060	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MTD
+2020-10-20 15:48:25,060	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MTW
+2020-10-20 15:48:25,060	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MU
+2020-10-20 15:48:25,061	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MUR
+2020-10-20 15:48:25,061	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MXIM
+2020-10-20 15:48:25,061	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.MYL
+2020-10-20 15:48:25,061	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NBL
+2020-10-20 15:48:25,062	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NBR
+2020-10-20 15:48:25,062	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NDAQ
+2020-10-20 15:48:25,062	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NE
+2020-10-20 15:48:25,062	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NEE
+2020-10-20 15:48:25,062	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NEM
+2020-10-20 15:48:25,063	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NFLX
+2020-10-20 15:48:25,063	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NI
+2020-10-20 15:48:25,063	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NKE
+2020-10-20 15:48:25,063	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NKTR
+2020-10-20 15:48:25,063	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NOC
+2020-10-20 15:48:25,063	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NOV
+2020-10-20 15:48:25,064	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NRG
+2020-10-20 15:48:25,064	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NSC
+2020-10-20 15:48:25,064	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NTAP
+2020-10-20 15:48:25,088	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NTRS
+2020-10-20 15:48:25,088	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NUE
+2020-10-20 15:48:25,088	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NVDA
+2020-10-20 15:48:25,089	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NWL
+2020-10-20 15:48:25,089	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.NYT
+2020-10-20 15:48:25,089	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.O
+2020-10-20 15:48:25,089	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ODP
+2020-10-20 15:48:25,090	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.OI
+2020-10-20 15:48:25,090	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.OKE
+2020-10-20 15:48:25,090	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.OMC
+2020-10-20 15:48:25,090	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ORCL
+2020-10-20 15:48:25,091	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ORLY
+2020-10-20 15:48:25,091	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.OXY
+2020-10-20 15:48:25,091	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PAYX
+2020-10-20 15:48:25,091	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PBCT
+2020-10-20 15:48:25,091	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PBI
+2020-10-20 15:48:25,092	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PCAR
+2020-10-20 15:48:25,092	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PCG
+2020-10-20 15:48:25,092	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PDCO
+2020-10-20 15:48:25,092	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PEG
+2020-10-20 15:48:25,092	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PEP
+2020-10-20 15:48:25,092	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PFE
+2020-10-20 15:48:25,093	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PFG
+2020-10-20 15:48:25,093	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PG
+2020-10-20 15:48:25,093	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PH
+2020-10-20 15:48:25,093	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PHM
+2020-10-20 15:48:25,093	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PKG
+2020-10-20 15:48:25,093	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PKI
+2020-10-20 15:48:25,094	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PLD
+2020-10-20 15:48:25,094	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PLL
+2020-10-20 15:48:25,094	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PM
+2020-10-20 15:48:25,094	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PNC
+2020-10-20 15:48:25,094	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PNR
+2020-10-20 15:48:25,094	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PNW
+2020-10-20 15:48:25,095	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PPG
+2020-10-20 15:48:25,095	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PPL
+2020-10-20 15:48:25,095	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PRGO
+2020-10-20 15:48:25,095	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PRU
+2020-10-20 15:48:25,095	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PSA
+2020-10-20 15:48:25,096	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PVH
+2020-10-20 15:48:25,096	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PWR
+2020-10-20 15:48:25,096	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.PXD
+2020-10-20 15:48:25,096	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.QCOM
+2020-10-20 15:48:25,096	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.R
+2020-10-20 15:48:25,096	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RCL
+2020-10-20 15:48:25,097	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RE
+2020-10-20 15:48:25,097	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.REG
+2020-10-20 15:48:25,097	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.REGN
+2020-10-20 15:48:25,097	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RF
+2020-10-20 15:48:25,097	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RHI
+2020-10-20 15:48:25,097	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RIG
+2020-10-20 15:48:25,098	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RJF
+2020-10-20 15:48:25,098	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RL
+2020-10-20 15:48:25,098	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RMD
+2020-10-20 15:48:25,098	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ROK
+2020-10-20 15:48:25,098	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ROL
+2020-10-20 15:48:25,098	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ROST
+2020-10-20 15:48:25,099	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RRC
+2020-10-20 15:48:25,099	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RRD
+2020-10-20 15:48:25,099	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RSG
+2020-10-20 15:48:25,099	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.RTN
+2020-10-20 15:48:25,099	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.S
+2020-10-20 15:48:25,099	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SBAC
+2020-10-20 15:48:25,100	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SBUX
+2020-10-20 15:48:25,100	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SCHW
+2020-10-20 15:48:25,100	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SE
+2020-10-20 15:48:25,100	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SEE
+2020-10-20 15:48:25,100	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SHW
+2020-10-20 15:48:25,100	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SIVB
+2020-10-20 15:48:25,101	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SJM
+2020-10-20 15:48:25,101	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SLB
+2020-10-20 15:48:25,101	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SLG
+2020-10-20 15:48:25,101	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SLM
+2020-10-20 15:48:25,101	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SNA
+2020-10-20 15:48:25,101	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SNPS
+2020-10-20 15:48:25,102	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SO
+2020-10-20 15:48:25,102	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SPG
+2020-10-20 15:48:25,102	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SPGI
+2020-10-20 15:48:25,102	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SPY
+2020-10-20 15:48:25,102	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SRCL
+2020-10-20 15:48:25,103	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SRE
+2020-10-20 15:48:25,103	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.STI
+2020-10-20 15:48:25,103	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.STT
+2020-10-20 15:48:25,103	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.STX
+2020-10-20 15:48:25,103	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.STZ
+2020-10-20 15:48:25,103	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SUN
+2020-10-20 15:48:25,104	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SWK
+2020-10-20 15:48:25,104	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SWKS
+2020-10-20 15:48:25,104	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SWN
+2020-10-20 15:48:25,104	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SYK
+2020-10-20 15:48:25,104	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.SYY
+2020-10-20 15:48:25,104	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.T
+2020-10-20 15:48:25,105	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TAP
+2020-10-20 15:48:25,105	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TDC
+2020-10-20 15:48:25,105	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TEL
+2020-10-20 15:48:25,105	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TER
+2020-10-20 15:48:25,105	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TFX
+2020-10-20 15:48:25,105	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TGNA
+2020-10-20 15:48:25,106	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TGT
+2020-10-20 15:48:25,106	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.THC
+2020-10-20 15:48:25,106	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TIF
+2020-10-20 15:48:25,111	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TJX
+2020-10-20 15:48:25,111	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TMO
+2020-10-20 15:48:25,111	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TMUS
+2020-10-20 15:48:25,112	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TPR
+2020-10-20 15:48:25,113	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TROW
+2020-10-20 15:48:25,113	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TRV
+2020-10-20 15:48:25,113	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TSCO
+2020-10-20 15:48:25,113	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TSN
+2020-10-20 15:48:25,113	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TTWO
+2020-10-20 15:48:25,114	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TXN
+2020-10-20 15:48:25,114	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.TXT
+2020-10-20 15:48:25,114	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.UA
+2020-10-20 15:48:25,114	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.UAA
+2020-10-20 15:48:25,115	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.UDR
+2020-10-20 15:48:25,115	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.UHS
+2020-10-20 15:48:25,116	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.UNH
+2020-10-20 15:48:25,117	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.UNM
+2020-10-20 15:48:25,117	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.UNP
+2020-10-20 15:48:25,117	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.UPS
+2020-10-20 15:48:25,118	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.URBN
+2020-10-20 15:48:25,118	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.URI
+2020-10-20 15:48:25,118	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.UTX
+2020-10-20 15:48:25,118	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.V
+2020-10-20 15:48:25,119	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VAR
+2020-10-20 15:48:25,119	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VFC
+2020-10-20 15:48:25,119	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VIAB
+2020-10-20 15:48:25,120	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VIAV
+2020-10-20 15:48:25,120	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VLO
+2020-10-20 15:48:25,120	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VMC
+2020-10-20 15:48:25,120	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VNO
+2020-10-20 15:48:25,120	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VRSN
+2020-10-20 15:48:25,121	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VRTX
+2020-10-20 15:48:25,121	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VTR
+2020-10-20 15:48:25,121	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.VZ
+2020-10-20 15:48:25,121	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WAB
+2020-10-20 15:48:25,121	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WAT
+2020-10-20 15:48:25,122	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WBA
+2020-10-20 15:48:25,122	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WCG
+2020-10-20 15:48:25,122	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WDC
+2020-10-20 15:48:25,122	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WEC
+2020-10-20 15:48:25,122	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WELL
+2020-10-20 15:48:25,122	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WFC
+2020-10-20 15:48:25,127	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WHR
+2020-10-20 15:48:25,128	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WM
+2020-10-20 15:48:25,129	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WMB
+2020-10-20 15:48:25,129	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WMT
+2020-10-20 15:48:25,130	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WU
+2020-10-20 15:48:25,130	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WY
+2020-10-20 15:48:25,130	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.WYNN
+2020-10-20 15:48:25,131	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.X
+2020-10-20 15:48:25,131	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.XEC
+2020-10-20 15:48:25,131	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.XEL
+2020-10-20 15:48:25,131	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.XLNX
+2020-10-20 15:48:25,132	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.XOM
+2020-10-20 15:48:25,132	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.XRAY
+2020-10-20 15:48:25,132	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.XRX
+2020-10-20 15:48:25,132	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.YUM
+2020-10-20 15:48:25,133	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ZBH
+2020-10-20 15:48:25,133	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.ZION
+2020-10-20 15:48:35,637	[ThreadPoolEx]	[INFO ]	Downloaded features for ABMD; num rows 5125 
+2020-10-20 15:48:35,783	[ThreadPoolEx]	[INFO ]	Start download for ticker: AFL
+2020-10-20 15:48:37,550	[ThreadPoolEx]	[INFO ]	Downloaded features for ABC; num rows 7817 
+2020-10-20 15:48:37,655	[ThreadPoolEx]	[INFO ]	Downloaded features for AAP; num rows 7741 
+2020-10-20 15:48:37,681	[ThreadPoolEx]	[INFO ]	Downloaded features for AEP; num rows 8576 
+2020-10-20 15:48:37,683	[ThreadPoolEx]	[INFO ]	Downloaded features for A; num rows 7942 
+2020-10-20 15:48:37,702	[ThreadPoolEx]	[INFO ]	Downloaded features for AES; num rows 8580 
+2020-10-20 15:48:37,713	[ThreadPoolEx]	[INFO ]	Downloaded features for AA; num rows 8576 
+2020-10-20 15:48:37,745	[ThreadPoolEx]	[INFO ]	Downloaded features for ADBE; num rows 8566 
+2020-10-20 15:48:37,779	[ThreadPoolEx]	[INFO ]	Downloaded features for ADS; num rows 8050 
+2020-10-20 15:48:37,824	[ThreadPoolEx]	[INFO ]	Start download for ticker: AGN
+2020-10-20 15:48:38,004	[ThreadPoolEx]	[INFO ]	Start download for ticker: AIG
+2020-10-20 15:48:38,060	[ThreadPoolEx]	[INFO ]	Downloaded features for ADM; num rows 8588 
+2020-10-20 15:48:38,085	[ThreadPoolEx]	[INFO ]	Downloaded features for ADP; num rows 8559 
+2020-10-20 15:48:38,126	[ThreadPoolEx]	[INFO ]	Downloaded features for ABT; num rows 8573 
+2020-10-20 15:48:38,243	[ThreadPoolEx]	[INFO ]	Start download for ticker: AIV
+2020-10-20 15:48:38,277	[ThreadPoolEx]	[INFO ]	Downloaded features for ADI; num rows 8589 
+2020-10-20 15:48:38,438	[ThreadPoolEx]	[INFO ]	Start download for ticker: AIZ
+2020-10-20 15:48:38,568	[ThreadPoolEx]	[INFO ]	Downloaded features for ADSK; num rows 8365 
+2020-10-20 15:48:38,653	[ThreadPoolEx]	[INFO ]	Start download for ticker: AJG
+2020-10-20 15:48:38,715	[ThreadPoolEx]	[INFO ]	Downloaded features for AAPL; num rows 8602 
+2020-10-20 15:48:38,754	[ThreadPoolEx]	[INFO ]	Downloaded features for ACN; num rows 8567 
+2020-10-20 15:48:38,874	[ThreadPoolEx]	[INFO ]	Start download for ticker: AKAM
+2020-10-20 15:48:39,088	[ThreadPoolEx]	[INFO ]	Start download for ticker: AKS
+2020-10-20 15:48:39,292	[ThreadPoolEx]	[INFO ]	Start download for ticker: ALB
+2020-10-20 15:48:39,510	[ThreadPoolEx]	[INFO ]	Start download for ticker: ALK
+2020-10-20 15:48:39,735	[ThreadPoolEx]	[INFO ]	Start download for ticker: ALL
+2020-10-20 15:48:39,947	[ThreadPoolEx]	[INFO ]	Start download for ticker: ALTR
+2020-10-20 15:48:40,158	[ThreadPoolEx]	[INFO ]	Start download for ticker: ALXN
+2020-10-20 15:48:40,398	[ThreadPoolEx]	[INFO ]	Start download for ticker: AMAT
+2020-10-20 15:48:40,621	[ThreadPoolEx]	[INFO ]	Start download for ticker: AMD
+2020-10-20 15:48:40,845	[ThreadPoolEx]	[INFO ]	Start download for ticker: AME
+2020-10-20 15:48:48,762	[ThreadPoolEx]	[INFO ]	Downloaded features for AGN; num rows 0 
+2020-10-20 15:48:48,773	[ThreadPoolEx]	[INFO ]	Start download for ticker: AMG
+2020-10-20 15:48:49,387	[ThreadPoolEx]	[INFO ]	Downloaded features for AIZ; num rows 6033 
+2020-10-20 15:48:49,565	[ThreadPoolEx]	[INFO ]	Start download for ticker: AMGN
+2020-10-20 15:48:49,727	[ThreadPoolEx]	[INFO ]	Downloaded features for AKS; num rows 0 
+2020-10-20 15:48:49,727	[ThreadPoolEx]	[INFO ]	Start download for ticker: AMP
+2020-10-20 15:48:50,058	[ThreadPoolEx]	[INFO ]	Downloaded features for AFL; num rows 8595 
+2020-10-20 15:48:50,315	[ThreadPoolEx]	[INFO ]	Downloaded features for ALTR; num rows 4461 
+2020-10-20 15:48:50,333	[ThreadPoolEx]	[INFO ]	Start download for ticker: AMT
+2020-10-20 15:48:50,480	[ThreadPoolEx]	[INFO ]	Start download for ticker: AMZN
+2020-10-20 15:48:51,137	[ThreadPoolEx]	[INFO ]	Downloaded features for AIG; num rows 8597 
+2020-10-20 15:48:51,336	[ThreadPoolEx]	[INFO ]	Downloaded features for AIV; num rows 7937 
+2020-10-20 15:48:51,395	[ThreadPoolEx]	[INFO ]	Start download for ticker: AN
+2020-10-20 15:48:51,436	[ThreadPoolEx]	[INFO ]	Downloaded features for AJG; num rows 7828 
+2020-10-20 15:48:51,658	[ThreadPoolEx]	[INFO ]	Start download for ticker: ANF
+2020-10-20 15:48:51,895	[ThreadPoolEx]	[INFO ]	Start download for ticker: ANSS
+2020-10-20 15:48:52,174	[ThreadPoolEx]	[INFO ]	Downloaded features for AKAM; num rows 8243 
+2020-10-20 15:48:52,380	[ThreadPoolEx]	[INFO ]	Downloaded features for ALB; num rows 8206 
+2020-10-20 15:48:52,459	[ThreadPoolEx]	[INFO ]	Start download for ticker: ANTM
+2020-10-20 15:48:52,694	[ThreadPoolEx]	[INFO ]	Start download for ticker: AON
+2020-10-20 15:48:52,967	[ThreadPoolEx]	[INFO ]	Downloaded features for ALL; num rows 8565 
+2020-10-20 15:48:53,017	[ThreadPoolEx]	[INFO ]	Downloaded features for ALK; num rows 8579 
+2020-10-20 15:48:53,252	[ThreadPoolEx]	[INFO ]	Start download for ticker: AOS
+2020-10-20 15:48:53,489	[ThreadPoolEx]	[INFO ]	Start download for ticker: APA
+2020-10-20 15:48:53,534	[ThreadPoolEx]	[INFO ]	Downloaded features for AMAT; num rows 8602 
+2020-10-20 15:48:53,728	[ThreadPoolEx]	[INFO ]	Downloaded features for AME; num rows 7906 
+2020-10-20 15:48:53,762	[ThreadPoolEx]	[INFO ]	Downloaded features for ALXN; num rows 8542 
+2020-10-20 15:48:53,845	[ThreadPoolEx]	[INFO ]	Start download for ticker: APD
+2020-10-20 15:48:54,061	[ThreadPoolEx]	[INFO ]	Start download for ticker: APH
+2020-10-20 15:48:54,071	[ThreadPoolEx]	[INFO ]	Downloaded features for AMD; num rows 8602 
+2020-10-20 15:48:54,324	[ThreadPoolEx]	[INFO ]	Start download for ticker: ARE
+2020-10-20 15:48:54,594	[ThreadPoolEx]	[INFO ]	Start download for ticker: ARNC

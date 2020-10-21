@@ -1,0 +1,19 @@
+2020-10-20 15:46:44,517	[Thread-1    ]	[INFO ]	Subcribed to: Connected Successfully
+2020-10-20 15:46:44,517	[MainThread  ]	[INFO ]	Preparing to download historical features...
+2020-10-20 15:46:44,653	[ThreadPoolEx]	[INFO ]	Start download for ticker: A
+2020-10-20 15:46:44,653	[ThreadPoolEx]	[INFO ]	Start download for ticker: AA
+2020-10-20 15:46:44,655	[ThreadPoolEx]	[INFO ]	Start download for ticker: AAP
+2020-10-20 15:46:44,656	[ThreadPoolEx]	[INFO ]	Start download for ticker: AAPL
+2020-10-20 15:46:44,657	[ThreadPoolEx]	[INFO ]	Start download for ticker: ABC
+2020-10-20 15:46:44,658	[ThreadPoolEx]	[INFO ]	Start download for ticker: ABMD
+2020-10-20 15:46:44,658	[ThreadPoolEx]	[INFO ]	Start download for ticker: ABT
+2020-10-20 15:46:44,661	[ThreadPoolEx]	[INFO ]	Start download for ticker: ACN
+2020-10-20 15:46:44,662	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADBE
+2020-10-20 15:46:44,662	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADI
+2020-10-20 15:46:44,664	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADM
+2020-10-20 15:46:44,664	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADP
+2020-10-20 15:46:44,670	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADS
+2020-10-20 15:46:44,674	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADSK
+2020-10-20 15:46:44,677	[ThreadPoolEx]	[INFO ]	Start download for ticker: AEP
+2020-10-20 15:46:44,680	[ThreadPoolEx]	[INFO ]	Start download for ticker: AES
+2020-10-20 15:46:44,965	[Thread-1    ]	[INFO ]	Subcribed to: authentication failed
