@@ -26,7 +26,7 @@ let file_cache = {}
 app.get('/logs/:file_name', function(req, res) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "X-Requested-With");
-    var lineReader = require('readline').createInterface({
+    let lineReader = require('readline').createInterface({
         input: require('fs').createReadStream(req.params.file_name)
     });
   
@@ -37,7 +37,13 @@ app.get('/logs/:file_name', function(req, res) {
     //     lines.push(line)
     // }
     lineReader.on('line', function (line) {
-        lines.push(line)
+        let parsedLine = line.split('\t');
+        lines.push({
+            date: parsedLine[0],
+            thread: parsedLine[1],
+            level: parsedLine[2],
+            message: parsedLine[3],
+        })
     });
     lineReader.on('close', function() {
         res.send(JSON.stringify(lines))
