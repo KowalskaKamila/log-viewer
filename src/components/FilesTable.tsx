@@ -109,6 +109,10 @@ const FilesTable = () => {
             columns={columns}
             dataSource={dataSource}
             loading={fileIsLoading}
+            pagination={{
+                defaultPageSize: 50
+            }}
+            scroll={{ y: 540 }}
             size='small'
         />
     );
