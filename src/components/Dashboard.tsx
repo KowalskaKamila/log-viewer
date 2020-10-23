@@ -5,10 +5,13 @@
 import React, { useEffect, useState} from 'react';
 import { Layout } from 'antd';
 import axios from 'axios'
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 // Interal imports
 import LogsTable from './LogsTable';
+import FilesTable from './FilesTable';
 import { ILogs } from '../types';
+
 
 const { Header, Content, Footer } = Layout;
 
@@ -22,7 +25,7 @@ const Dashboard = () => {
    **************************/
 
   const [logs, setLogs] = useState<ILogs[]>([]);
-  // const [currentLogContent, setCurrentLogContent] = useState<string[]>([]);
+  const [logsLoading, setlogsLoading] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
 
   /**************************
@@ -36,15 +39,20 @@ const Dashboard = () => {
    * Local functions
   **************************/
     const getAllLogs =  async() => {
-        const response = await axios.get('http://165.227.29.60:8083/logs')
-
-        // .catch(err => {
-        //     if (!err || !err.response) {
-        //         return console.log("error")
-        //     }
-        // })
-        setLogs(response.data)
-
+        setlogsLoading(true)
+        await axios.get('http://localhost:8083/logs')
+        .then(response => {
+          setlogsLoading(false)
+          setLogs(response.data)
+      })
+      .catch(err => {
+        setlogsLoading(false)
+          if (err || !err.response) {
+            console.log("error")
+          } else {
+            console.log(err)
+          }  
+      })
     };
 
     useEffect(() => {
@@ -58,22 +66,30 @@ const Dashboard = () => {
     <Layout>
         <Header style={{ position: 'fixed', zIndex: 1, width: '100%', color: 'white' }}>Logs dashboard</Header>
         <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-            <Content
-                style={{
-                    padding: '25px 50px',
-                    marginTop: 64,
-                    background: '#f0f2f5',
-                    flexGrow: 1,
-                }}
-            >
-                <div style={{ background: 'white', padding: '40px 60px' }}>
-                    <LogsTable
-                        logs={logs}
-                        searchQuery={searchQuery}
-                        setSearchQuery={setNewSearchQuery}
+          <Content
+            style={{
+              padding: '25px 50px',
+              marginTop: 64,
+              background: '#f0f2f5',
+              flexGrow: 1,
+            }}
+          >
+            <div style={{ background: 'white', padding: '40px 60px' }}>
+              <Router> 
+                <Switch>
+                  <Route exact path={"/"} render={() => 
+                    <LogsTable 
+                      logs={logs}
+                      logsLoading={logsLoading}
+                      searchQuery={searchQuery}
+                      setSearchQuery={setNewSearchQuery}
                     />
-                </div>
-            </Content>
+                  }/>
+                  <Route exact path={"/:fileName"} component={FilesTable}/>
+                </Switch>
+              </Router>
+            </div>
+          </Content>
         <Footer style={{ textAlign: 'center' }}>Made by Kamila Kowalska</Footer>
       </div>
     </Layout>
