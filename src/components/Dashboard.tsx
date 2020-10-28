@@ -85,7 +85,7 @@ const Dashboard = () => {
                       setSearchQuery={setNewSearchQuery}
                     />
                   }/>
-                  <Route exact path={"/:fileName"} component={FilesTable}/>
+                  <Route exact path={"/:fileName"} component={FilesTable} />
                 </Switch>
               </Router>
             </div>

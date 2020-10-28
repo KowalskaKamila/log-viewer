@@ -4,11 +4,14 @@
 // Libraries
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom'
-import { Table } from 'antd';
+import { Table, Input} from 'antd';
+import { SearchOutlined } from '@ant-design/icons';
 import axios from 'axios'
 
 // Internal imports
 import { ILogFile } from '../types';
+
+const { Search } = Input;
 
 /**************************
  * Component
@@ -20,6 +23,8 @@ const FilesTable = () => {
     **************************/
     const [currentLogContent, setCurrentLogContent] = useState< ILogFile[]>([]);
     const [fileIsLoading, setFileIsLoading] = useState<boolean>(false);
+    const [searchQuery, setSearchQuery] = useState<string>('');
+
     /**************************
     * Local variables
     **************************/
@@ -27,18 +32,24 @@ const FilesTable = () => {
 
     /**************************
     * Local functions
-    **************************/
-    
-    const getThreads = () => {
-        const threads = new Set<string>();  
+    **************************/    
+    const columsFilter = (option: string) => {
+        const categoryNames = new Set<string>();  
         currentLogContent?.map((file: ILogFile) => {
-            if (!threads.has(file.thread)) {
-                threads.add(file.thread)
+            if (option === 'thread') {
+                if (!categoryNames.has(file.thread)) {
+                    categoryNames.add(file.thread)
+                }    
+            } else {
+                if (!categoryNames.has(file.level)) {
+                    categoryNames.add(file.level)
+                }    
             }    
         });
-        const convertThreads: string[] = Array.from(threads);   
-        return convertThreads;
+        const convertedCategoryNames: string[] = Array.from(categoryNames);   
+        return convertedCategoryNames;
     }
+
     const getLogContent =  async(currentLog: string) => {
         if (currentLog?.length > 0 ) { 
             setFileIsLoading(true)
@@ -62,6 +73,31 @@ const FilesTable = () => {
         getLogContent(fileName);
     }, [fileName] )
 
+    const onSearchedRegexp = (value:string) => {
+        setSearchQuery(value)
+    }
+
+    const filteredMessages = () => {
+        if (!searchQuery) {
+            return currentLogContent;
+        };
+        const serchedElements = currentLogContent.filter(
+                (file : ILogFile) => file.message.match(searchQuery)
+            );
+        return serchedElements; 
+    }; 
+
+    const dataSource = 
+        filteredMessages()?.map((file: ILogFile, index) => {
+            return {
+                key: index,
+                date: file.date,
+                thread: file.thread,
+                level: file.level,
+                message: file.message,
+            };  
+        }); 
+    
     const columns = [
         {
             title: 'Date',
@@ -72,49 +108,54 @@ const FilesTable = () => {
         {
             title: 'Thread',
             dataIndex: 'thread',
-            key: 'key',
-            filters: getThreads()?.map((file: string) => {
+            filters: columsFilter('thread')?.map((thread: string) => {
                return { 
-                    text: file,
-                    value: file
+                    text: thread,
+                    value: thread
                 }
             }),
-            onFilter: (value: any, record: ILogFile) => record.thread.indexOf(value) === 0,    
+            onFilter: (value: any, record: ILogFile) => record.thread.indexOf(value) === 0   
         },
         {
             title: 'Level',
             dataIndex: 'level',
-            key: 'key',
+            filters: columsFilter('level')?.map((level: string) => {
+                return { 
+                    text: level,
+                    value: level
+                }
+             }),
+            onFilter: (value: any, record: ILogFile) => record.level.indexOf(value) === 0
         },
         {
             title: 'Message',
             dataIndex: 'message',
             key: 'key',
         },
-    ];
-
-    const dataSource = 
-        currentLogContent?.map((file: ILogFile, index) => {
-            return {
-                key: index,
-                date: file.date,
-                thread: file.thread,
-                level: file.level,
-                message: file.message,
-            };    
-    });
-
+    ]; 
+   
     return (
-        <Table 
-            columns={columns}
-            dataSource={dataSource}
-            loading={fileIsLoading}
-            pagination={{
-                defaultPageSize: 50
-            }}
-            scroll={{ y: 540 }}
-            size='small'
-        />
+        <div>
+            <Search
+                placeholder='Search messages with Text or RegExp'
+                prefix={<SearchOutlined/>}
+                allowClear
+                enterButton="Search"
+                size="large"
+                style={{ marginBottom: '25px' }}
+                onSearch={onSearchedRegexp}
+            />
+            <Table 
+                columns={columns}
+                dataSource={dataSource}
+                loading={fileIsLoading}
+                pagination={{
+                    defaultPageSize: 50
+                }}
+                scroll={{ y: 540 }}
+                size='small'
+            />
+        </div>
     );
 };
 

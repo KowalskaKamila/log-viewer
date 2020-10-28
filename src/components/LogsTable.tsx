@@ -41,10 +41,10 @@ const LogsTable = (props: ILogsTableProps) => {
 
     const columns = [
         {
-        title: 'Log',
-        dataIndex: 'log',
-        key: 'log',
-          render: (log:ILogs) => <Link to={`/${log}`}>{log}</Link>
+            title: 'Log',
+            dataIndex: 'log',
+            key: 'log',
+            render: (log:ILogs) => <Link to={`/${log}`}>{log}</Link>
         },
     ];
 
