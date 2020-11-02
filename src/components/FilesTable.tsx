@@ -7,6 +7,7 @@ import { useParams } from 'react-router-dom'
 import { Table, Input} from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import axios from 'axios'
+import moment from 'moment'
 
 // Internal imports
 import { ILogFile } from '../types';
@@ -101,9 +102,8 @@ const FilesTable = () => {
     const columns = [
         {
             title: 'Date',
-            dataIndex: 'date',
-            key: 'key',
-            // sorter: (a: ILogFile, b: ILogFile) => a.(date) - b.date, 
+            render: (file: ILogFile) => moment.unix(file.date).format('l h:mm:ss a'),
+            sorter: (a: ILogFile, b: ILogFile) => a.date - b.date, 
         },
         {
             title: 'Thread',

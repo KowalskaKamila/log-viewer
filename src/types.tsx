@@ -10,7 +10,7 @@ export interface ILogs {
 }
 
 export interface ILogFile {
-  date: string;
+  date : number;
   thread: string;
   level: string;
   message: string;

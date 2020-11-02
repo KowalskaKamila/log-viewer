@@ -38,9 +38,10 @@ app.get('/logs/:file_name', function(req, res) {
     // }
     lineReader.on('line', function (line) {
         let parsedLine = line.split('\t');
-        let parsedDate = line.split(',')
+        let newDate = parsedLine[0].replace(/,/g, ".")
+        let unixTimestamp = Math.round(new Date(newDate).getTime()/1000);
         lines.push({
-            date: parsedDate[0],
+            date: unixTimestamp,
             thread: parsedLine[1],
             level: parsedLine[2],
             message: parsedLine[3],

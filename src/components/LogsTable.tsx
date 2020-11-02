@@ -62,7 +62,7 @@ const LogsTable = (props: ILogsTableProps) => {
     return (
         <div> 
             <Input
-                placeholder= 'Search deadends here'
+                placeholder= 'Search logs files'
                 prefix={<SearchOutlined/>}
                 onChange={(e: any) => props.setSearchQuery(e.target.value)}
                 value={props.searchQuery}

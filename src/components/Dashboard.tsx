@@ -64,7 +64,7 @@ const Dashboard = () => {
    **************************/
   return (
     <Layout>
-        <Header style={{ position: 'fixed', zIndex: 1, width: '100%', color: 'white' }}>Logs dashboard</Header>
+        {/* <Header style={{ position: 'fixed', zIndex: 1, width: '100%', color: 'white' }}>Logs overview</Header> */}
         <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
           <Content
             style={{
@@ -90,7 +90,7 @@ const Dashboard = () => {
               </Router>
             </div>
           </Content>
-        <Footer style={{ textAlign: 'center' }}>Made by Kamila Kowalska</Footer>
+        {/* <Footer style={{ textAlign: 'center' }}>Made by Kamila Kowalska</Footer> */}
       </div>
     </Layout>
   );
