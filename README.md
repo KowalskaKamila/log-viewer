@@ -8,8 +8,9 @@ Technology stack:
  
  To start the frontend:
     In the src directory run:
-      yarn start
+      yarn start.
+      
  To start the backend:
     In the server directory with log files run:
-      node server.js
+      node server.js.
  
