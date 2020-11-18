@@ -1,5 +1,6 @@
 
 Web application for viewing the logs that are stored on the server.
+
 Technology stack:
  * React
  * TypeScript
