@@ -1,23 +1,23 @@
-2020-10-20 15:48:24,396	[Thread-1    ]	[INFO ]	Subcribed to: Connected Successfully
+2020-10-20 15:48:24,396	[Thread-1    ]	[DEBUG ]	Subcribed to: Connected Successfully
 2020-10-20 15:48:24,396	[MainThread  ]	[INFO ]	Preparing to download historical features...
-2020-10-20 15:48:24,538	[ThreadPoolEx]	[INFO ]	Start download for ticker: A
+2020-10-20 15:48:24,538	[ThreadPoolEx]	[FATAL ]	Start download for ticker: A
 2020-10-20 15:48:24,539	[ThreadPoolEx]	[INFO ]	Start download for ticker: AA
-2020-10-20 15:48:24,541	[ThreadPoolEx]	[INFO ]	Start download for ticker: AAP
+2020-10-20 15:48:24,541	[ThreadPoolEx]	[DEBUG ]	Start download for ticker: AAP
 2020-10-20 15:48:24,542	[ThreadPoolEx]	[INFO ]	Start download for ticker: AAPL
-2020-10-20 15:48:24,543	[ThreadPoolEx]	[INFO ]	Start download for ticker: ABC
+2020-10-20 15:48:24,543	[ThreadPoolEx]	[ERROR ]	Start download for ticker: ABC
 2020-10-20 15:48:24,543	[ThreadPoolEx]	[INFO ]	Start download for ticker: ABMD
-2020-10-20 15:48:24,544	[ThreadPoolEx]	[INFO ]	Start download for ticker: ABT
+2020-10-20 15:48:24,544	[ThreadPoolEx]	[DEBUG ]	Start download for ticker: ABT
 2020-10-20 15:48:24,546	[ThreadPoolEx]	[INFO ]	Start download for ticker: ACN
-2020-10-20 15:48:24,546	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADBE
+2020-10-20 15:48:24,546	[ThreadPoolEx]	[WARN ]	Start download for ticker: ADBE
 2020-10-20 15:48:24,547	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADI
-2020-10-20 15:48:24,547	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADM
-2020-10-20 15:48:24,547	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADP
+2020-10-20 15:48:24,547	[ThreadPoolEx]	[DEBUG ]	Start download for ticker: ADM
+2020-10-20 15:48:24,547	[ThreadPoolEx]	[WARN ]	Start download for ticker: ADP
 2020-10-20 15:48:24,547	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADS
-2020-10-20 15:48:24,548	[ThreadPoolEx]	[INFO ]	Start download for ticker: ADSK
-2020-10-20 15:48:24,548	[ThreadPoolEx]	[INFO ]	Start download for ticker: AEP
+2020-10-20 15:48:24,548	[ThreadPoolEx]	[WARN ]	Start download for ticker: ADSK
+2020-10-20 15:48:24,548	[ThreadPoolEx]	[TRACE ]	Start download for ticker: AEP
 2020-10-20 15:48:24,549	[ThreadPoolEx]	[INFO ]	Start download for ticker: AES
 2020-10-20 15:48:24,837	[Thread-1    ]	[INFO ]	Subcribed to: authenticated
-2020-10-20 15:48:24,841	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.A
+2020-10-20 15:48:24,841	[Thread-1    ]	[OFF ]	Subcribed to: subscribed to: AM.A
 2020-10-20 15:48:24,841	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AA
 2020-10-20 15:48:24,842	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AAP
 2020-10-20 15:48:24,842	[Thread-1    ]	[INFO ]	Subcribed to: subscribed to: AM.AAPL

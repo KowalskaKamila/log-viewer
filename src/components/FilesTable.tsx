@@ -2,158 +2,76 @@
  * Imports
  **************************/
 // Libraries
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom'
-import { Table, Input} from 'antd';
+import * as React from 'react';
+import { Link } from 'react-router-dom'
+import { Input, Table} from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
-import axios from 'axios'
-import moment from 'moment'
 
 // Internal imports
 import { ILogFile } from '../types';
 
-const { Search } = Input;
+/**************************
+ * Type of props
+ **************************/
+interface IFilesTableProps {
+    logs: ILogFile[];
+    logsLoading: boolean;
+    searchQuery: string;
+    setSearchQuery: (NewSearchQuery: string) => void;    
+}
 
 /**************************
  * Component
-**************************/
-
-const FilesTable = () => {
-    /**************************
-    * Setting state variables
-    **************************/
-    const [currentLogContent, setCurrentLogContent] = useState< ILogFile[]>([]);
-    const [fileIsLoading, setFileIsLoading] = useState<boolean>(false);
-    const [searchQuery, setSearchQuery] = useState<string>('');
-
-    /**************************
-    * Local variables
-    **************************/
-    const {fileName}= useParams();
-
+ **************************/
+const FilesTable = (props: IFilesTableProps) => {
+ 
     /**************************
     * Local functions
-    **************************/    
-    const columsFilter = (option: string) => {
-        const categoryNames = new Set<string>();  
-        currentLogContent?.map((file: ILogFile) => {
-            if (option === 'thread') {
-                if (!categoryNames.has(file.thread)) {
-                    categoryNames.add(file.thread)
-                }    
-            } else {
-                if (!categoryNames.has(file.level)) {
-                    categoryNames.add(file.level)
-                }    
-            }    
-        });
-        const convertedCategoryNames: string[] = Array.from(categoryNames);   
-        return convertedCategoryNames;
-    }
-
-    const getLogContent =  async(currentLog: string) => {
-        if (currentLog?.length > 0 ) { 
-            setFileIsLoading(true)
-            axios.get(`http://localhost:8083/logs/${currentLog}`)
-            .then(response => {
-                setFileIsLoading(false)
-                setCurrentLogContent(response.data)
-            })
-            .catch(err => {
-                setFileIsLoading(false)
-                if (err || !err.response) {
-                    console.log("error")
-                } else {
-                    console.log(err)
-                }  
-            })
-        }
-    };
-
-    useEffect(() => {
-        getLogContent(fileName);
-    }, [fileName] )
-
-    const onSearchedRegexp = (value:string) => {
-        setSearchQuery(value)
-    }
-
-    const filteredMessages = () => {
-        if (!searchQuery) {
-            return currentLogContent;
+    **************************/  
+    // Keeps the logs that match the search query.
+    const filteredLogs = () => {
+        if (!props.searchQuery) {
+            return props.logs;
         };
-        const serchedElements = currentLogContent.filter(
-                (file : ILogFile) => file.message.match(searchQuery)
-            );
-        return serchedElements; 
+        const searchedLogs = props.logs?.filter(
+            (log : ILogFile) => log.filename.toLowerCase().indexOf(props.searchQuery.trim().toLowerCase()) !== -1,
+        );
+        return searchedLogs;
     }; 
 
-    const dataSource = 
-        filteredMessages()?.map((file: ILogFile, index) => {
-            return {
-                key: index,
-                date: file.date,
-                thread: file.thread,
-                level: file.level,
-                message: file.message,
-            };  
-        }); 
-    
     const columns = [
         {
-            title: 'Date',
-            render: (file: ILogFile) => moment.unix(file.date).format('l h:mm:ss a'),
-            sorter: (a: ILogFile, b: ILogFile) => a.date - b.date, 
+            title: 'Log file',
+            dataIndex: 'log',
+            key: 'log',
+            render: (log:ILogFile) => <Link to={`/${log}`}>{log}</Link>
         },
-        {
-            title: 'Thread',
-            dataIndex: 'thread',
-            filters: columsFilter('thread')?.map((thread: string) => {
-               return { 
-                    text: thread,
-                    value: thread
-                }
-            }),
-            onFilter: (value: any, record: ILogFile) => record.thread.indexOf(value) === 0   
-        },
-        {
-            title: 'Level',
-            dataIndex: 'level',
-            filters: columsFilter('level')?.map((level: string) => {
-                return { 
-                    text: level,
-                    value: level
-                }
-             }),
-            onFilter: (value: any, record: ILogFile) => record.level.indexOf(value) === 0
-        },
-        {
-            title: 'Message',
-            dataIndex: 'message',
-            key: 'key',
-        },
-    ]; 
-   
+    ];
+
+    const dataSource = 
+        filteredLogs()?.map((logs: ILogFile) => {
+            return {
+                key: logs.filename,
+                log: logs.filename,
+            };    
+        });
+
+    /**************************
+    * Render
+    **************************/
     return (
-        <div>
-            <Search
-                placeholder='Search messages with Text or RegExp'
+        <div> 
+            <Input
+                placeholder= 'Search logs files'
                 prefix={<SearchOutlined/>}
-                allowClear
-                enterButton="Search"
-                size="large"
-                style={{ marginBottom: '25px' }}
-                onSearch={onSearchedRegexp}
+                onChange={(e: any) => props.setSearchQuery(e.target.value)}
+                value={props.searchQuery}
+                style={{ fontSize: 20, marginBottom: 15 }}
             />
             <Table 
+                loading={props.logsLoading}
                 columns={columns}
-                dataSource={dataSource}
-                loading={fileIsLoading}
-                pagination={{
-                    defaultPageSize: 50
-                }}
-                scroll={{ y: 540 }}
-                size='small'
+                dataSource={dataSource}   
             />
         </div>
     );

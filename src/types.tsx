@@ -4,12 +4,11 @@
 
 // Syntax with I prefix in the name indicates a type
 
-// The type of logs event
-export interface ILogs {
+export interface ILogFile {
     filename: string;
 }
 
-export interface ILogFile {
+export interface ILog {
   date : number;
   thread: string;
   level: string;
