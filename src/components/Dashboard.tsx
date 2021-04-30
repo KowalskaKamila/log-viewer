@@ -3,7 +3,7 @@
  **************************/
 // Libraries
 import React, { useEffect, useState} from 'react';
-import { Layout} from 'antd';
+import { Layout, Breadcrumb } from 'antd';
 import axios from 'axios'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { FileOutlined } from '@ant-design/icons';
@@ -67,17 +67,19 @@ const Dashboard = () => {
   return (
     <Layout>
       <Header style={{ position: 'fixed', zIndex: 1, width: '100%'}}>
-        <h2 style={{ color:'white'}} >
+        <h3 style={{ color:'white'}} >
           <FileOutlined />
           Logs viewer
-        </h2>
+        </h3>
       </Header>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <Breadcrumb>
+        </Breadcrumb>
         <Content
           style={{
             padding: '25px 50px',
             marginTop: '100px',
-            background: '#f0f2f5',
+            background: 'var(--off-white)',
             flexGrow: 1,
           }}
         >  

@@ -3,26 +3,17 @@
  **************************/
 // Libraries
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom'
-import { Table, Input, Tag} from 'antd';
-import { SearchOutlined } from '@ant-design/icons';
+import { useParams, useHistory } from 'react-router-dom'
+import { Table, Input, Tag, Row} from 'antd';
+import { SearchOutlined, ArrowLeftOutlined } from '@ant-design/icons';
 import axios from 'axios'
 import moment from 'moment'
+import './style.css'
 
 // Internal imports
 import { ILog } from '../types';
 
 const { Search } = Input;
-
-// interface Icolors  {
-//     '[INFO ]': string;
-//     '[ERROR ]': string;
-//     '[WARN ]': string;
-//     '[DEBUG ]': string;
-//     '[FATAL ]': string;
-//     '[OFF ]': string;
-//     '[TRACE ]': string;
-// }
 
 /**************************
  * Component
@@ -40,6 +31,7 @@ const LogsTable = () => {
     * Local variables
     **************************/
     const {fileName}= useParams();
+    const history = useHistory();
 
     /**************************
     * Local functions
@@ -83,10 +75,6 @@ const LogsTable = () => {
     useEffect(() => {
         getLogContent(fileName);
     }, [fileName] )
-
-    const onSearchedRegexp = (value:string) => {
-        setSearchQuery(value)
-    }
 
     const filteredMessages = () => {
         if (!searchQuery) {
@@ -184,6 +172,10 @@ const LogsTable = () => {
    
     return (
         <div>
+            <Row style={{marginBottom:30}}>
+                <ArrowLeftOutlined onClick={() =>  history.push(`/`)} className='arrow_back'/>
+                <h4 className='H4'>{fileName}</h4>
+            </Row>
             <Search
                 placeholder='Search messages with Text or RegExp'
                 prefix={<SearchOutlined/>}
@@ -191,7 +183,7 @@ const LogsTable = () => {
                 enterButton="Search"
                 size="large"
                 style={{ marginBottom: '25px' }}
-                onSearch={onSearchedRegexp}
+                onSearch={(value) => setSearchQuery(value)}
             />
             <Table 
                 title={() =>`All logs: ${currentLogContent.length}`}

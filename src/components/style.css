@@ -1,0 +1,15 @@
+.arrow_back {
+  font-size: 20px; 
+  color: var(--grey);
+  margin: 2px 10px 0px 0px;
+
+}
+
+.arrow_back :hover{
+    color: var(--blue);
+}
+
+.H4 {
+  text-align: left;
+  color: var(--grey);
+}
